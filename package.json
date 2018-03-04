@@ -1,6 +1,6 @@
 {
   "name": "pdsp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "saves bytes in your build with a shortcut to event preventDefault and stopPropagation",
   "main": "index.js",
   "scripts": {
