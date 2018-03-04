@@ -1,0 +1,29 @@
+{
+  "name": "pdsp",
+  "version": "0.0.0",
+  "description": "saves bytes in your build with a shortcut to event preventDefault and stopPropagation",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibo/pdsp.git"
+  },
+  "keywords": [
+    "DOM",
+    "event",
+    "preventDefault",
+    "stopPropagation"
+  ],
+  "author": {
+    "name": "Gianluca Casati",
+    "url": "http://g14n.info"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fibo/pdsp/issues"
+  },
+  "homepage": "https://github.com/fibo/pdsp#readme"
+}
